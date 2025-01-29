@@ -50,7 +50,8 @@ int main(){
     // vector<int> nums = {112,131,411}; // "returns -1"
     cout<<s.maxSum(nums);
     return 0;
-// }// Time Complexity O(N^2)
+}
+// Time Complexity O(N^2)
 
 // O(N^2) x O(log(number))
 // O(log(number)) approx equals to O(d) where d<=10 (where d are  digits 0-9 )
